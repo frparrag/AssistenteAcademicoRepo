@@ -5,9 +5,8 @@
     <color android:color="@color/colorSplashScreen"/>
   </item>
   <item>
-    <bitmap android:src="@drawable/launcher_foreground"
+    <bitmap android:src="@drawable/logo.PNG"
             android:tileMode="disabled"
             android:gravity="center"/>
   </item>
 </layer-list>
-

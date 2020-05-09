@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:GitExampleRepo"
              x:Class="GitExampleRepo.MainPage">
 
     <StackLayout>
@@ -11,6 +12,9 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Image Source="{local:ImageResource EmbeddedImages.Images.logo.PNG}" HorizontalOptions="Center"/>
+
     </StackLayout>
+    
 
 </ContentPage>

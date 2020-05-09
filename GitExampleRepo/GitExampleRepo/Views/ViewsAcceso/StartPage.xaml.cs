@@ -16,5 +16,13 @@ namespace GitExampleRepo.Views.ViewsAcceso
         {
             InitializeComponent();
         }
+        private void RegisterNav_Clicked(object sender, EventArgs e) {
+
+            Navigation.PushAsync(new RegisterPage());
+
+        }
+        private void LoginNav_Clicked(object sender, EventArgs e) {
+            Navigation.PushAsync(new LoginPage()); 
+        }
     }
 }

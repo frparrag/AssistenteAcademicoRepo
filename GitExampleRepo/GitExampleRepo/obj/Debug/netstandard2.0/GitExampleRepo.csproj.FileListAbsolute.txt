@@ -1,0 +1,15 @@
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\bin\Debug\netstandard2.0\GitExampleRepo.deps.json
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\bin\Debug\netstandard2.0\GitExampleRepo.dll
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\bin\Debug\netstandard2.0\ref\GitExampleRepo.dll
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\bin\Debug\netstandard2.0\GitExampleRepo.pdb
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.csprojAssemblyReference.cache
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\Views\ViewsAcceso\StartPage.xaml.g.cs
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.csproj.CoreCompileInputs.cache
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.AssemblyInfoInputs.cache
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.AssemblyInfo.cs
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.dll
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\ref\GitExampleRepo.dll
+C:\Users\fredy\source\repos\AssistenteAcademicoRepo\GitExampleRepo\GitExampleRepo\obj\Debug\netstandard2.0\GitExampleRepo.pdb

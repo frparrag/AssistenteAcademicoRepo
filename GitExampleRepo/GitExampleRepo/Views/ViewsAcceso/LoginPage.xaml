@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GitExampleRepo.Views.ViewsAcceso.Page1">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+            <Grid RowSpacing="25">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="1" HorizontalOptions="Center">
+                    <Label Text="Registrece ahora" TextColor="#B49950" FontSize="10" WidthRequest="{d:OnPlatform UWP=300,Android=300,iOS=300}" FontAttributes="None"/>
+
+                </StackLayout>
+                <StackLayout Grid.Row="2" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Nombre de Usuario" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="20"/>
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="3" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Email" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="35"/>
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="4" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Contraseña" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="20" IsPassword="True"/>
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="5" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Nombres" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="20" />
+
+                    </Frame>
+                
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Apellidos" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Text" HorizontalTextAlignment="Start" MaxLength="20" />
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="6" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Entry WidthRequest="275" HeightRequest="50" Placeholder="Edad" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric" HorizontalTextAlignment="Start" MaxLength="2" />
+
+                    </Frame>
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Picker Title="Pais"  HeightRequest="50" FontSize="15" WidthRequest="{d:OnPlatform Android=146, iOS=146,UWP=146}" >
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Colombia</x:String>
+                                    <x:String>USA</x:String>
+                                    <x:String>Venezuela</x:String>
+                                    <x:String>Ecuador</x:String>
+                                    <x:String>Panama</x:String>
+                                    <x:String>Bolivia</x:String>
+                                    <x:String>Mexico</x:String>
+                                    <x:String>Perú</x:String>
+                                    
+                                </x:Array>
+                            </Picker.ItemsSource>
+                            
+                        </Picker>
+
+                    </Frame>
+                </StackLayout>
+                <StackLayout Grid.Row="7" HorizontalOptions="Center">
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Button Text="Acepto"  HeightRequest="35" TextColor="#B49950" BackgroundColor="White" FontSize="12" FontAttributes="Bold"/>
+
+                    </Frame>
+
+                    <Frame HasShadow="true" HeightRequest="45" Padding="0,1,0,0" >
+                        <Button Text="Volver"  HeightRequest="35" TextColor="#B49950" BackgroundColor="White" FontSize="12" FontAttributes="Bold"/>
+                    </Frame>
+                </StackLayout>
+
+            </Grid>
+
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
